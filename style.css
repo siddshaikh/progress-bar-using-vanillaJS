@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  align-items: center;
+}
+.progress-container {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: rgb(222, 212, 212);
+  height: 30px;
+  width: 80%;
+  padding: 0.7rem;
+}
+.progress{
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    height: 80%;
+}
+.start-btn {
+  border: none;
+  color: #fff;
+  padding: 0.7rem;
+  font-size: large;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  outline: none !important;
+  box-shadow: -4px 6px 10px rgba(0, 0, 0, 0.2),
+    inset 4px 6px 10px rgba(255, 255, 255, 0.2),
+    inset -4px -6px 10px rgba(255, 255, 255, 0.2);
+    background-color: gray;
+    border-radius: 5px;
+}
