@@ -13,6 +13,15 @@ startBtn.addEventListener("click", () => {
         progress.innerHTML = percent + "%";
         progress.style.background = "green";
         progress.style.width = percent + "%";
+        // backgound color basis on percentage
+        if(percent <= 60 && percent >= 30){
+            progress.style.backgroundColor="yellow" ;
+        }else if(percent < 30){
+           progress.style.backgroundColor = "red"
+        }else{
+            progress.style.backgroundColor = "green"
+        }
+
       }else{
         clearInterval(timeInterval)
         startFlag = false
